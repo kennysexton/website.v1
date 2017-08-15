@@ -8,6 +8,9 @@
 
 /* ----------------------------- Web ---------------------------------*/
     /* Header Elements */
+.content {
+  min-height: calc(100vh - 50px);  
+}
 .header {
     background-color: #FFFFFF;
     width: 100%;
@@ -71,6 +74,13 @@ img {
 img:hover {
     opacity: .8;
     z-index: 1;
+}
+
+.footer {
+    background-color: #242424;
+    position: absolute;
+    height: 50px;
+    
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
