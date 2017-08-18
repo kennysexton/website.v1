@@ -5,12 +5,15 @@
     font-weight: 100;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 
 /* ----------------------------- Web ---------------------------------*/
     /* Header Elements */
-.content {
-  min-height: calc(100vh - 50px);  
-}
+
 .header {
     background-color: #FFFFFF;
     width: 100%;
@@ -52,9 +55,8 @@ li:hover{
     
 #wrapper {
     padding-top: 5%;
-    max-width: 1200px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
+    max-width: 1200px;     
 }
 
 img {
@@ -74,13 +76,6 @@ img {
 img:hover {
     opacity: .8;
     z-index: 1;
-}
-
-.footer {
-    background-color: #242424;
-    position: absolute;
-    height: 50px;
-    
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
