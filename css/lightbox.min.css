@@ -192,7 +192,7 @@ body.lb-disable-scrolling{
     text-align:right;
     outline:0;
     filter:alpha(Opacity=70);
-    opacity:.7;
+    opacity:.4;
     -webkit-transition:opacity .2s;
     -moz-transition:opacity .2s;
     -o-transition:opacity .2s;
