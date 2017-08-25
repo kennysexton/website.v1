@@ -23,6 +23,10 @@ html, body {
     z-index: 2;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     padding: 7px 20px;
     float: left;
@@ -79,38 +83,67 @@ img {
     margin: .5%;
 }
 
-img:hover {
+a img:hover {
     opacity: .8;
     z-index: 1;
 }
-
-/*
-.push{
-    position: absolute;
-    bottom: -70px;
-    height: 70px; 
-    border: 1px solid orange; 
-    width: 100%;
-    background-color: #c0c0c0;
-}
-*/
 
 .footer{
     position: absolute; 
     width: 100%;
     bottom: -12.5vw;
-    height: 70px;
+    height: 90px;
     background-color: #1d1d1d;
 }
 
 .footer p {
     text-align: center;
-    padding: 25px 0px;
+    padding: 8px 0px 10px 0px;
     font-size: 12px;
     color: #777777;
     font-weight: 400;
 }
-S
+
+.circle {
+    border-radius: 50%;
+    background-color: #666666;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.circle img{
+    color: #ffffff;
+    height: 16px;
+    width: 16px;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: absolute;  
+}
+
+.circle:hover {
+    background-color: #888888;
+}
+
+#cir1 {
+    left: 46%;
+    margin-left: -30px;
+}
+
+#cir2 {
+    left: 50%;
+    margin-left: -30px;
+}
+
+#cir3 {
+    left: 54%;
+    margin-left: -30px;
+}
+
 /* ----------------------------- Tablet ---------------------------------*/
 
 @media screen and (max-width: 1220px) {
