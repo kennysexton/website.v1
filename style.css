@@ -70,7 +70,6 @@ li:hover{
     overflow: hidden;
     min-height: 100%;
     margin-bottom: -50px;
-    
 }
 
 img {
@@ -82,9 +81,9 @@ img {
 }
 
 .one-third {
-    width: 29%;
+    width: 32%;
     float: left;
-    margin: .5%;
+    margin: 0.5%;
 }
 
 a img:hover {
