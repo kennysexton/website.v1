@@ -9,6 +9,14 @@ html, body {
   height: 100%;
 }
 
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding-bottom: calc(90px + 2%);
+}
+
 /* ----------------------------- Web ---------------------------------*/
     /* Header Elements */
 
@@ -69,6 +77,7 @@ li:hover{
     max-width: 1050px; 
     overflow: hidden;
     min-height: 100%;
+    margin-bottom: -90px; /***/
 }
 
 img {
@@ -90,10 +99,11 @@ a img:hover {
     z-index: 1;
 }
 
+    /*  Footer */
 .footer{
     position: absolute; 
     width: 100%;
-    bottom: -15.5vw;
+/*    bottom: -20vw;*/
     height: 90px;
     background-color: #1d1d1d;
 }
@@ -161,8 +171,7 @@ a img:hover {
     
     li {
         margin: 0px 18px;
-        padding: 10.5px 18px;
-        
+        padding: 10.5px 18px; 
     }
     
     .shading {
@@ -170,8 +179,8 @@ a img:hover {
     }
     
     .one-third {
-        width: 46%;
-        margin: 1%;
+        width: 49%;
+        margin: .5%;
     }
       
      #wrapper {
@@ -179,14 +188,24 @@ a img:hover {
     }
     
     .footer {
-        visibility: hidden; 
+        visibility: visible; 
+    }
+    
+    #cir1 {
+        left: 42%;
+        margin-left: -30px;
+    }
+    
+    #cir3 {
+        left: 58%;
+        margin-left: -30px;
     }
 }
 
 /* ----------------------------- Phone ---------------------------------*/
 @media screen and (max-width: 480px) {
     .one-third {
-        width: 98%;
+        width: 98.4%;
         margin: .8%;
     }
     
@@ -195,7 +214,6 @@ a img:hover {
     }
 
     nav ul, nav:active ul { 
-
         display: none;
         position: absolute;
         padding: 10px 0px;
@@ -218,9 +236,12 @@ a img:hover {
 		display: block;
 	}
     
-   
      #wrapper {
         padding-top: 10%;
+    }
+    
+    .content-inside {
+        padding-bottom: 2px;
     }
     
     .footer {
