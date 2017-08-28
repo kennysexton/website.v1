@@ -9,9 +9,6 @@ html, body {
   height: 100%;
 }
 
-
-
-
 /* ----------------------------- Web ---------------------------------*/
     /* Header Elements */
 
@@ -21,6 +18,13 @@ html, body {
     height: 50px;
     position: fixed;
     z-index: 2;
+}
+
+#mobile-menu {
+    visibility: hidden;
+    position: absolute;
+    left: 88%;
+    padding: 8px;
 }
 
 a {
@@ -91,7 +95,7 @@ a img:hover {
 .footer{
     position: absolute; 
     width: 100%;
-    bottom: -12.5vw;
+    bottom: -15.5vw;
     height: 90px;
     background-color: #1d1d1d;
 }
@@ -187,6 +191,36 @@ a img:hover {
         width: 98%;
         margin: .8%;
     }
+    
+    #mobile-menu{
+        visibility: visible;
+    }
+
+    nav ul, nav:active ul { 
+
+        display: none;
+        position: absolute;
+        padding: 10px 0px;
+        background-color: #fff;
+        border: 3px solid #444;
+        right: 10px;
+        top: 40px;
+        width: 45%;
+    }
+    
+    nav li {
+        background-color: #FAFAFA;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0px;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+    
+   
      #wrapper {
         padding-top: 10%;
     }
