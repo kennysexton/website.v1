@@ -66,10 +66,9 @@ li:hover{
 #wrapper {
     padding-top: 5%;
     margin: 0 auto; 
-    max-width: 1200px; 
+    max-width: 1050px; 
     overflow: hidden;
     min-height: 100%;
-    margin-bottom: -50px;
 }
 
 img {
