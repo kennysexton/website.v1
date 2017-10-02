@@ -55,7 +55,9 @@ li {
     margin: 2px 20px;
     padding: 14px 16px;
     text-decoration: none;
-    color: #1d1d1d;
+    color: #1F1F1F;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 li:hover{
@@ -94,7 +96,7 @@ img {
     margin: 0.5%;
 }
 
-a img:hover {
+.one-third img:hover {
     opacity: .8;
     z-index: 1;
 }
@@ -158,7 +160,7 @@ a img:hover {
 
 /* ----------------------------- Tablet ---------------------------------*/
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1020px) {
     .header{
         height: 40px;
     }
