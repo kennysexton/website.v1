@@ -1,0 +1,98 @@
+/* ----------------------------- Web ---------------------------------*/
+.megablock{
+    margin: 200px 0px 0px 0px;
+    position: relative;
+/*    background: linear-gradient(#C9F2EB, #B3F2D5, #A7F2BA); */
+
+}
+
+.block{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.skill-wrapper {
+    
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+#b1 {
+    background-color: #324D5C;
+/*
+    background-color: #7B2A3B;
+    background-color: #2C3840;
+*/
+}
+
+#b2 {
+    background-color: #46B29D;
+/*
+    background-color: #E57661;
+    background-color: #f2f2f2;
+*/
+}
+
+#b3 {
+    background-color: #F0CA4D;
+/*
+    background-color: #F8C58C;
+    background-color: #958765;
+*/
+}
+
+#b4 {
+    background-color: #E37B40;
+/*
+    background-color: #F8E7A2;
+    background-color: #A6754B;
+*/
+}
+
+#b5 {
+    background-color: #DE5B49;
+/*
+    background-color: #86DDB2;
+    background-color: #733B2F;
+*/
+}
+
+.s-circle {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+    top: 85px;
+    left: 40px;
+    border-radius: 50%;
+}
+
+.s-smcircle{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    left: 4px;
+    top: 4px;
+    background-color: #324D5C;   
+}
+
+.megablock p {
+    position: absolute;
+    top: 91px; /* 85 + .5 * fontsize  */
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+/* ----------------------------- Tablet ---------------------------------*/
+
+@media screen and (max-width: 1220px) {
+   
+}
+/* ----------------------------- Phone ---------------------------------*/
+@media screen and (max-width: 480px) {
+    
+}
