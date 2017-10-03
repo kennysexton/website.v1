@@ -9,21 +9,26 @@
 .block{
     display: block;
     width: 100%;
+    z-index: 0;
     height: 200px;
 }
 
 .skill-wrapper {
-    
     margin: 0px auto;
     max-width: 1000px;
 }
 
+    /* Block 1 */
 #b1 {
     background-color: #324D5C;
 /*
     background-color: #7B2A3B;
     background-color: #2C3840;
 */
+}
+    /* Block 2 */
+#s-sm-cir1{
+    background-color: #324D5C;
 }
 
 #b2 {
@@ -33,7 +38,11 @@
     background-color: #f2f2f2;
 */
 }
+#s-sm-cir2{
+    background-color: #46B29D;
+}
 
+    /* Block 3 */
 #b3 {
     background-color: #F0CA4D;
 /*
@@ -41,7 +50,11 @@
     background-color: #958765;
 */
 }
+#s-sm-cir3{
+    background-color: #F0CA4D;
+}
 
+    /* Block 4 */
 #b4 {
     background-color: #E37B40;
 /*
@@ -49,7 +62,11 @@
     background-color: #A6754B;
 */
 }
+#s-sm-cir4{
+    background-color: #E37B40;
+}
 
+    /* Block 5 */
 #b5 {
     background-color: #DE5B49;
 /*
@@ -57,9 +74,13 @@
     background-color: #733B2F;
 */
 }
+#s-sm-cir5{
+    background-color: #DE5B49;
+}
 
 .s-circle {
     position: relative;
+    z-index: 3;
     height: 30px;
     width: 30px;
     background-color: #FFFFFF;
@@ -74,17 +95,62 @@
     width: 22px;
     border-radius: 50%;
     left: 4px;
-    top: 4px;
-    background-color: #324D5C;   
+    top: 4px;   
 }
 
-.megablock p {
+.years {
     position: absolute;
-    top: 91px; /* 85 + .5 * fontsize  */
     font-size: 14px;
     color: #FFFFFF;
     font-family: "Open Sans";
     font-weight: 500;
+}
+
+#yr1 {
+    top: 91px; /* 85 + .5 * fontsize  */
+}
+
+#yr2 {
+    top: 291px;  /*85 + .5 * fontsize  */
+}
+
+#yr3 {
+    top: 491px;  /*85 + .5 * fontsize  */
+}
+
+#yr4 {
+    top: 691px;  /*85 + .5 * fontsize  */
+}
+#yr5{
+    top: 891px;  /*85 + .5 * fontsize  */
+}
+
+.positioning {
+    position: relative;
+}
+.vertLine {
+    position: absolute;
+    margin-top: -1000;
+    z-index: 2;
+    width: 4.5px;
+    top: 85px;
+    left: 53px;
+    height: 800px;
+    background-color: #FFFFFF;
+}
+
+ol {
+    list-style-type: none;
+    position: absolute;
+    top: 65px;
+    left 10px;
+}
+
+li {
+    display: inline;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 0px 10px;
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
