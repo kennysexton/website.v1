@@ -3,7 +3,6 @@
     margin: 200px 0px 0px 0px;
     position: relative;
 /*    background: linear-gradient(#C9F2EB, #B3F2D5, #A7F2BA); */
-
 }
 
 .block{
@@ -141,22 +140,30 @@
 
 ol {
     list-style-type: none;
+    margin: auto 0px;
+    width: 1000px;
+    padding: 0px 0px 0px 80px;
     position: absolute;
-    top: 65px;
-    left 10px;
+    top: 42px;
+    z-index: 2;
 }
 
-li {
+.skill-wrapper li {
     display: inline;
     color: #FFFFFF;
+    margin: 0px;
+    font-size: 14px;
     font-weight: 400;
-    padding: 0px 10px;
+    padding: 0px 1.8%;
+    letter-spacing: 0.4px;
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
 
-@media screen and (max-width: 1220px) {
-   
+@media screen and (max-width: 800px) {
+    .megablock {
+        visibility: hidden;
+    }
 }
 /* ----------------------------- Phone ---------------------------------*/
 @media screen and (max-width: 480px) {
