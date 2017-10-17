@@ -131,11 +131,56 @@
     position: absolute;
     margin-top: -1000;
     z-index: 2;
-    width: 4.5px;
     top: 85px;
-    left: 53px;
-    height: 800px;
     background-color: #FFFFFF;
+    width: 3px;
+}
+
+#yr-vert {
+    left: 53px;
+    width: 4.5px;
+    height: 800px;
+}
+
+#ps {
+    height: 815px;
+    left: 123px;
+}
+#ai {
+    height: 815px;
+    left: 223px;
+}
+#lr {
+    height: 615px;
+    left: 323px;
+}
+#jv {
+    height: 615px;
+    left: 423px;
+}
+#bl {
+    height: 415px;
+    left: 523px;
+}
+#c {
+    height: 415px;
+    left: 623px;
+}
+#ht {
+    height: 215px;
+    left: 723px;
+}
+#cs {
+    height: 215px;
+    left: 823px;
+}
+#js {
+    height: 215px;
+    left: 923px;
+}
+#pr {
+    height: 215px;
+    left: 1023px;
 }
 
 ol {

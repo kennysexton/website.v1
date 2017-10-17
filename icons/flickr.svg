@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px"
-	 height="20px" viewBox="6 6 20 20" enable-background="new 6 6 20 20" xml:space="preserve">
-<g id="Layer_1" display="none">
-	<g display="inline">
-		<path id="Flickr_4_" fill="#0063DC" d="M10.744,11.737c-2.369,0-4.293,1.906-4.293,4.256s1.918,4.256,4.293,4.256
-			c2.369,0,4.294-1.906,4.294-4.256S13.112,11.737,10.744,11.737z"/>
-		<path id="Flickr_3_" fill="#FF0084" d="M25.606,15.994c0,2.35-1.925,4.256-4.294,4.256s-4.294-1.906-4.294-4.256
-			s1.925-4.256,4.294-4.256S25.606,13.644,25.606,15.994z"/>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#0063DC;}
+	.st3{fill:#FF0084;}
+	.st4{fill:#1D1D1D;}
+</style>
+<g id="Layer_1_1_" class="st0">
+	<g class="st1">
+		<path id="Flickr_4_" class="st2" d="M4.7,5.7c-2.4,0-4.3,1.9-4.3,4.3s1.9,4.3,4.3,4.3C7.1,14.2,9,12.3,9,10S7.1,5.7,4.7,5.7z"/>
+		<path id="Flickr_3_" class="st3" d="M19.6,10c0,2.3-1.9,4.3-4.3,4.3S11,12.3,11,10s1.9-4.3,4.3-4.3S19.6,7.6,19.6,10z"/>
 	</g>
 </g>
 <g id="Layer_1_bw">
 	<g>
-		<path id="Flickr_2_" d="M10.744,11.737c-2.369,0-4.293,1.906-4.293,4.256s1.918,4.256,4.293,4.256
-			c2.369,0,4.294-1.906,4.294-4.256S13.112,11.737,10.744,11.737z"/>
-		<path id="Flickr_1_" d="M25.606,15.994c0,2.35-1.925,4.256-4.294,4.256s-4.294-1.906-4.294-4.256s1.925-4.256,4.294-4.256
-			S25.606,13.644,25.606,15.994z"/>
+		<path id="Flickr_2_" class="st4" d="M4.7,5.7c-2.4,0-4.3,1.9-4.3,4.3s1.9,4.3,4.3,4.3C7.1,14.2,9,12.3,9,10S7.1,5.7,4.7,5.7z"/>
+		<path id="Flickr_1_" class="st4" d="M19.6,10c0,2.3-1.9,4.3-4.3,4.3S11,12.3,11,10s1.9-4.3,4.3-4.3S19.6,7.6,19.6,10z"/>
 	</g>
 </g>
 </svg>
