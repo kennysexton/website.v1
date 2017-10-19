@@ -27,6 +27,10 @@ img {
     z-index: 1;
 }
 
+.content-inside {
+    padding-bottom: calc(90px + 2%);
+}
+
 /* ----------------------------- Tablet ---------------------------------*/
 
 @media screen and (max-width: 1020px) {
