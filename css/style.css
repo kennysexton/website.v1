@@ -40,14 +40,10 @@ img {
     }
 }
 
-
 /* ----------------------------- Phone ---------------------------------*/
 @media screen and (max-width: 480px) {
     .one-third {
         width: 98.4%;
         margin: .8%;
     }
-    
-
-
 }

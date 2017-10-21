@@ -13,12 +13,8 @@ html, body {
     min-height: 100%;
 }
 
-.content-inside {
-    padding-bottom: calc(90px + 2%);
-}
-
 /* ----------------------------- Web ---------------------------------*/
-    /* Header Elements */
+    /* ---------- Header Elements ---------- */
 
 .header {
     background-color: #FFFFFF;
@@ -72,7 +68,7 @@ nav li:hover{
     top: 50px;
 }
 
-    /*  Footer */
+    /* ---------- Footer ---------- */
 .footer{
     position: absolute; 
     width: 100%;
