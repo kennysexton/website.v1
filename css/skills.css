@@ -79,7 +79,7 @@
 
 .s-circle {
     position: relative;
-    z-index: 3;
+    z-index: 2;
     height: 30px;
     width: 30px;
     background-color: #FFFFFF;
@@ -140,6 +140,7 @@
     left: 53px;
     width: 4.5px;
     height: 800px;
+    z-index: 
 }
 
 #ps {
